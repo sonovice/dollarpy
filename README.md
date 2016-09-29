@@ -11,6 +11,7 @@
 From the website:
 
 > The $P Point-Cloud Recognizer is a 2-D gesture recognizer designed for rapid prototyping of gesture-based user interfaces. In machine learning terms, $P is an instance-based nearest-neighbor classifier with a Euclidean scoring function, i.e., a geometric template matcher.
+> 
 > $P is the latest in the dollar family of recognizers that includes $1 for unistrokes and $N for multistrokes. Although about half of $P’s code is from $1, unlike both $1 and $N, $P does not represent gestures as ordered series of points (i.e., strokes), but as unordered point-clouds. By representing gestures as point-clouds, $P can handle both unistrokes and multistrokes equivalently and without the combinatoric overhead of $N. When comparing two point-clouds, $P solves the classic assignment problem between two bipartite graphs using an approximation of the Hungarian algorithm.
 
 Vatavu, R. D., Anthony, L., & Wobbrock, J. O., ["Gestures as Point Clouds: A $P Recognizer for User Interface Prototypes"](http://faculty.washington.edu/wobbrock/pubs/icmi-12.pdf), in: *Proceedings of the 14th ACM International Conference on Multimodal Interaction (ICMI)*, Santa Monica, LA, USA, 2012, pp. 273-280.
