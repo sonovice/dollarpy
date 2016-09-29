@@ -27,7 +27,7 @@ pip install dollarpy
 *dollarpy* is used in 3 steps:
 
 ``` python
-from pydollar import Recognizer, Template, Point
+from dollarpy import Recognizer, Template, Point
 
 # Define 'Template' gestures, each consisting of a name and a list of 'Point' elements.
 # These 'Point' elements have 'x' and 'y' coordinates and optionally the stroke index a point belongs to.
