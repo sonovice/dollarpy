@@ -3,8 +3,15 @@ from os import path
 
 here = path.abspath(path.dirname(__file__))
 
-with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
-    long_description = f.read()
+try:
+    import pypandoc
+    long_description = pypandoc.convert_file(path.join(here, 'README.md'),
+                                             format='markdown_github',
+                                             to='rst',
+                                             outputfile="README.rst")
+except (ImportError, OSError) as error:
+    with open(path.join(here, 'README.md'), encoding='utf-8') as f:
+        long_description = f.read()
 
 setup(
     name='dollarpy',
