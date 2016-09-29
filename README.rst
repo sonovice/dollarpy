@@ -19,7 +19,7 @@ dollarpy
 .. |Coverage Status| image:: https://img.shields.io/codecov/c/github/sonovice/dollarpy.svg?maxAge=3600
    :target: https://codecov.io/gh/sonovice/dollarpy
 
-From the `website <http://depts.washington.edu/aimgroup/proj/dollar/pdollar.html>`_:
+From the `$P website <http://depts.washington.edu/aimgroup/proj/dollar/pdollar.html>`_:
 
     The $P Point-Cloud Recognizer is a 2-D gesture recognizer designed for rapid prototyping of gesture-based user interfaces. In machine learning terms, $P is an instance-based nearest-neighbor classifier with a Euclidean scoring function, i.e., a geometric template matcher.
 
