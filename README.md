@@ -1,6 +1,6 @@
 # dollarpy
 
-*dollarpy* is a python implementation of the [$P Point-Cloud Recognizer](http://depts.washington.edu/aimgroup/proj/dollar/pdollar.html) .
+*dollarpy* is a python implementation of the [$P Point-Cloud Recognizer](http://depts.washington.edu/aimgroup/proj/dollar/pdollar.html).
 
 [![License](https://img.shields.io/pypi/l/dollarpy.svg)](https://www.gnu.org/licenses/lgpl.html)
 
