@@ -31,3 +31,8 @@ def test_recognition_failed():
         Point(306, 222, 1),
     ])
     assert result[0] is None
+
+
+def test_point_repr():
+    point = Point(1, 2, 3)
+    assert str(point) == '(1, 2), stroke 3'

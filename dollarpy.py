@@ -7,6 +7,9 @@ class Point:
         self.y = y
         self.stroke_id = stroke_id
 
+    def __repr__(self):
+        return '(' + str(self.x) + ', ' + str(self.y) + '), stroke ' + str(self.stroke_id)
+
 
 class Template(list):
     def __init__(self, name, points):
