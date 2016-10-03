@@ -15,7 +15,7 @@ except (ImportError, OSError) as error:
 
 setup(
     name='dollarpy',
-    version='0.1.0',
+    version='0.1.1',
     description='A python imlementation of the $P Point-Cloud Recognizer',
     long_description=long_description,
     url='https://github.com/sonovice/dollarpy',
